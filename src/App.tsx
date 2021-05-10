@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import { Box } from './Box'
+import { Card } from './components/card/Card'
 
 function App() {
   return (
     <div className="App">
-      <Box backgroundColor="green" />
+      <Card variant="outlined"></Card>
     </div>
   )
 }

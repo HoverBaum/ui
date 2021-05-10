@@ -8,6 +8,8 @@ import {
   ColorProps,
   layout,
   LayoutProps,
+  shadow,
+  ShadowProps,
   space,
   SpaceProps,
 } from 'styled-system'
@@ -17,7 +19,8 @@ export interface BoxProps
     SpaceProps,
     LayoutProps,
     BackgroundProps,
-    BorderProps {}
+    BorderProps,
+    ShadowProps {}
 
 export const Box = styled.div<BoxProps>`
   min-height: 1rem;
@@ -27,4 +30,5 @@ export const Box = styled.div<BoxProps>`
   ${layout}
   ${background}
   ${border}
+  ${shadow}
 `

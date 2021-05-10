@@ -6,6 +6,7 @@ import {
   flexbox,
   FlexboxProps as BasicFlexBoxProps,
   layout,
+  shadow,
   space,
 } from 'styled-system'
 import { BoxProps } from './Box'
@@ -22,4 +23,5 @@ export const FlexBox = styled.div<FlexboxProps>`
   ${layout}
   ${background}
   ${border}
+  ${shadow}
 `

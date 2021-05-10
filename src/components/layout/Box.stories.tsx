@@ -6,6 +6,7 @@ export default {
   component: Box,
 } as Meta
 
+//@ts-ignore
 const Template: Story<BoxProps> = (args) => <Box {...args}>Box</Box>
 
 export const BasicBox = Template.bind({})

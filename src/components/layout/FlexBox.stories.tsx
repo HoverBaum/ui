@@ -18,6 +18,7 @@ export default {
 
 // We need one Story following the template format to get param filtering to work.
 const Template: Story<FlexboxProps> = (args) => (
+  //@ts-ignore
   <FlexBox {...args}>FlexBox</FlexBox>
 )
 

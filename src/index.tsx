@@ -4,12 +4,7 @@ import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { ThemeProvider } from '@emotion/react'
-
-const theme = {
-  colors: {
-    green: '#007ce0',
-  },
-}
+import { theme } from './theme'
 
 ReactDOM.render(
   <React.StrictMode>
